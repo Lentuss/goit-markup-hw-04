@@ -253,17 +253,15 @@ img {
 .social-link-list {
   display: flex;
   width: 206px;
-  height: 44px;
   justify-content: space-between;
 }
-.social-link-list a {
+
+.social-link {
   display: flex;
   width: 44px;
   height: 44px;
   justify-content: center;
   align-items: center;
-}
-.social-link {
   fill: var(--icon-fill-color);
 }
 
@@ -309,8 +307,6 @@ img {
 }
 
 .logo-icon {
-  width: 106px;
-  height: 60px;
   fill: currentColor;
 }
 .clients-logo:hover,
