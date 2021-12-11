@@ -39,13 +39,20 @@
               <a
                 class="address-link address-link-color link-color-change"
                 href="mailto:info@example.com"
-                >info@example.com</a
               >
+                <svg class="mail" width="16" height="12">
+                  <use href="../images/icons.svg#mail"></use>
+                </svg>
+                info@example.com
+              </a>
             </li>
             <li>
-              <a class="address-link address-link-color link-color-change" href="tel:380991111111"
-                >+38 099 111 11 11</a
-              >
+              <a class="address-link address-link-color link-color-change" href="tel:380991111111">
+                <svg class="phone" width="10" height="16">
+                  <use href="../images/icons.svg#phone"></use>
+                </svg>
+                +38 099 111 11 11
+              </a>
             </li>
           </ul>
         </div>
@@ -193,16 +200,45 @@
     </main>
     <footer class="footer-section">
       <div class="container">
-        <a class="footer-logo" href="#"><span class="logo-part">Web</span>Studio</a>
-        <address class="footer-address">
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="footer-address-link link-color-change" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-          <a class="footer-address-link link-color-change" href="tel:380991111111"
-            >+38 099 111 11 11</a
-          >
-        </address>
+        <div class="footer-block">
+          <div class="adress-block">
+            <a class="footer-logo" href="#"><span class="logo-part">Web</span>Studio</a>
+            <address class="footer-address">
+              <p>г. Киев, пр-т Леси Украинки, 26</p>
+              <a class="footer-address-link link-color-change" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+              <a class="footer-address-link link-color-change" href="tel:380991111111"
+                >+38 099 111 11 11</a
+              >
+            </address>
+          </div>
+          <div class="join-block">
+            <p class="join-offer">Присоединяйтесь</p>
+            <ul>
+              <li class="join-link">
+                <svg class="join-icon" width="20px" height="20px">
+                  <use href="../images/icons.svg#instagram"></use>
+                </svg>
+              </li>
+              <li class="join-link">
+                <svg class="join-icon" width="20px" height="20px">
+                  <use href="../images/icons.svg#twitter"></use>
+                </svg>
+              </li>
+              <li class="join-link">
+                <svg class="join-icon" width="20px" height="20px">
+                  <use href="../images/icons.svg#facebook"></use>
+                </svg>
+              </li>
+              <li class="join-link">
+                <svg class="join-icon" width="20px" height="20px">
+                  <use href="../images/icons.svg#linkedin"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
