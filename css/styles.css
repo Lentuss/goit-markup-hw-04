@@ -432,12 +432,13 @@ img {
 }
 .footer-block {
   display: flex;
+  align-items: baseline;
 }
 .join-block {
   margin-left: 70px;
 }
 .join-offer {
-  margin: 12px 0 20px;
+  margin: 0 0 20px;
 
   text-transform: uppercase;
   color: #ffffff;
