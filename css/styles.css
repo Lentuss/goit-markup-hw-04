@@ -85,6 +85,8 @@ img {
 }
 .address-list .address-link {
   color: var(--main-text-color);
+
+  align-items: center;
 }
 .link-color-change:hover,
 .link-color-change:focus {
