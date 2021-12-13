@@ -33,6 +33,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+a {
+  cursor: pointer;
+}
 
 /* header styles */
 .header-section {
@@ -454,7 +457,7 @@ img {
 .join-link:not(:last-child) {
   margin-right: 10px;
 }
-.join-link {
+.join-link a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -467,7 +470,7 @@ img {
 .join-icon {
   fill: #ffffff;
 }
-.join-link:hover,
-.join-link:focus {
+.join-link a:hover,
+.join-link a:focus {
   background-color: var(--brand-color);
 }
